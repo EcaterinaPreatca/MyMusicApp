@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C459A5B027030D2E003E7B14 /* MiyaGi_&_Andy_Panda-_I_got_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5AF27030D2E003E7B14 /* MiyaGi_&_Andy_Panda-_I_got_love.mp3 */; };
+		C459A5B627030D80003E7B14 /* song2.1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5B527030D80003E7B14 /* song2.1.mp3 */; };
+		C459A5BA27031284003E7B14 /* Lovefool_Twocolors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5B927031284003E7B14 /* Lovefool_Twocolors.mp3 */; };
+		C459A5BE2703148B003E7B14 /* Bastard_F..c_That.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5BD2703148B003E7B14 /* Bastard_F..c_That.mp3 */; };
+		C459A5C027031918003E7B14 /* song9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5BF27031918003E7B14 /* song9.mp3 */; };
+		C459A5C2270319E9003E7B14 /* Tiesto_-_don-t-be-shy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5C1270319E9003E7B14 /* Tiesto_-_don-t-be-shy.mp3 */; };
+		C459A5C427031BE9003E7B14 /* Masked-wolf_-_astronaut-in-the-ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C459A5C327031BE9003E7B14 /* Masked-wolf_-_astronaut-in-the-ocean.mp3 */; };
 		C4E2592F26EFBBC600D90D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E2592E26EFBBC600D90D9A /* Assets.xcassets */; };
 		C4E2593126EFD16800D90D9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E2593026EFD16800D90D9A /* LoginViewController.swift */; };
 		C4E2593326EFD17700D90D9A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E2593226EFD17700D90D9A /* LoginViewController.xib */; };
@@ -18,15 +25,22 @@
 		C4ED760426EE6940008446C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED760326EE6940008446C4 /* Main.storyboard */; };
 		C4ED760826EE698E008446C4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED760726EE698E008446C4 /* File.swift */; };
 		C4ED760A26EE69BF008446C4 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED760926EE69BF008446C4 /* PlayerViewController.swift */; };
-		C4ED760D26EE6A0A008446C4 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED760C26EE6A0A008446C4 /* song1.mp3 */; };
-		C4ED760F26EE6A10008446C4 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED760E26EE6A10008446C4 /* song2.mp3 */; };
-		C4ED761126EE6A15008446C4 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED761026EE6A15008446C4 /* song3.mp3 */; };
+		C4ED760D26EE6A0A008446C4 /* Basta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED760C26EE6A0A008446C4 /* Basta.mp3 */; };
+		C4ED760F26EE6A10008446C4 /* Scriptonit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED760E26EE6A10008446C4 /* Scriptonit.mp3 */; };
+		C4ED761126EE6A15008446C4 /* Korz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED761026EE6A15008446C4 /* Korz.mp3 */; };
 		C4ED761326EE6A19008446C4 /* song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED761226EE6A19008446C4 /* song4.mp3 */; };
 		C4ED761526EE6A1E008446C4 /* song5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED761426EE6A1E008446C4 /* song5.mp3 */; };
 		C4ED761726EE6A23008446C4 /* song6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4ED761626EE6A23008446C4 /* song6.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C459A5AF27030D2E003E7B14 /* MiyaGi_&_Andy_Panda-_I_got_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MiyaGi_&_Andy_Panda-_I_got_love.mp3"; sourceTree = "<group>"; };
+		C459A5B527030D80003E7B14 /* song2.1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.1.mp3; sourceTree = "<group>"; };
+		C459A5B927031284003E7B14 /* Lovefool_Twocolors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lovefool_Twocolors.mp3; sourceTree = "<group>"; };
+		C459A5BD2703148B003E7B14 /* Bastard_F..c_That.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bastard_F..c_That.mp3; sourceTree = "<group>"; };
+		C459A5BF27031918003E7B14 /* song9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song9.mp3; sourceTree = "<group>"; };
+		C459A5C1270319E9003E7B14 /* Tiesto_-_don-t-be-shy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tiesto_-_don-t-be-shy.mp3"; sourceTree = "<group>"; };
+		C459A5C327031BE9003E7B14 /* Masked-wolf_-_astronaut-in-the-ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Masked-wolf_-_astronaut-in-the-ocean.mp3"; sourceTree = "<group>"; };
 		C4E2592E26EFBBC600D90D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E2593026EFD16800D90D9A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C4E2593226EFD17700D90D9A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -40,9 +54,9 @@
 		C4ED760326EE6940008446C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C4ED760726EE698E008446C4 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C4ED760926EE69BF008446C4 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		C4ED760C26EE6A0A008446C4 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
-		C4ED760E26EE6A10008446C4 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
-		C4ED761026EE6A15008446C4 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		C4ED760C26EE6A0A008446C4 /* Basta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Basta.mp3; sourceTree = "<group>"; };
+		C4ED760E26EE6A10008446C4 /* Scriptonit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scriptonit.mp3; sourceTree = "<group>"; };
+		C4ED761026EE6A15008446C4 /* Korz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Korz.mp3; sourceTree = "<group>"; };
 		C4ED761226EE6A19008446C4 /* song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song4.mp3; sourceTree = "<group>"; };
 		C4ED761426EE6A1E008446C4 /* song5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song5.mp3; sourceTree = "<group>"; };
 		C4ED761626EE6A23008446C4 /* song6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song6.mp3; sourceTree = "<group>"; };
@@ -106,11 +120,18 @@
 		C4ED760B26EE69F9008446C4 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				C4ED760C26EE6A0A008446C4 /* song1.mp3 */,
-				C4ED760E26EE6A10008446C4 /* song2.mp3 */,
-				C4ED761026EE6A15008446C4 /* song3.mp3 */,
+				C459A5AF27030D2E003E7B14 /* MiyaGi_&_Andy_Panda-_I_got_love.mp3 */,
+				C4ED760C26EE6A0A008446C4 /* Basta.mp3 */,
+				C4ED760E26EE6A10008446C4 /* Scriptonit.mp3 */,
+				C459A5B527030D80003E7B14 /* song2.1.mp3 */,
+				C4ED761026EE6A15008446C4 /* Korz.mp3 */,
 				C4ED761226EE6A19008446C4 /* song4.mp3 */,
+				C459A5BD2703148B003E7B14 /* Bastard_F..c_That.mp3 */,
+				C459A5C1270319E9003E7B14 /* Tiesto_-_don-t-be-shy.mp3 */,
+				C459A5BF27031918003E7B14 /* song9.mp3 */,
 				C4ED761426EE6A1E008446C4 /* song5.mp3 */,
+				C459A5C327031BE9003E7B14 /* Masked-wolf_-_astronaut-in-the-ocean.mp3 */,
+				C459A5B927031284003E7B14 /* Lovefool_Twocolors.mp3 */,
 				C4ED761626EE6A23008446C4 /* song6.mp3 */,
 			);
 			path = Audio;
@@ -174,15 +195,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4ED75FC26EE68E2008446C4 /* LaunchScreen.storyboard in Resources */,
+				C459A5C427031BE9003E7B14 /* Masked-wolf_-_astronaut-in-the-ocean.mp3 in Resources */,
+				C459A5C2270319E9003E7B14 /* Tiesto_-_don-t-be-shy.mp3 in Resources */,
 				C4E2593326EFD17700D90D9A /* LoginViewController.xib in Resources */,
+				C459A5B027030D2E003E7B14 /* MiyaGi_&_Andy_Panda-_I_got_love.mp3 in Resources */,
+				C459A5C027031918003E7B14 /* song9.mp3 in Resources */,
 				C4E2592F26EFBBC600D90D9A /* Assets.xcassets in Resources */,
+				C459A5BA27031284003E7B14 /* Lovefool_Twocolors.mp3 in Resources */,
 				C4ED761726EE6A23008446C4 /* song6.mp3 in Resources */,
-				C4ED761126EE6A15008446C4 /* song3.mp3 in Resources */,
+				C4ED761126EE6A15008446C4 /* Korz.mp3 in Resources */,
+				C459A5B627030D80003E7B14 /* song2.1.mp3 in Resources */,
 				C4ED761526EE6A1E008446C4 /* song5.mp3 in Resources */,
 				C4ED760426EE6940008446C4 /* Main.storyboard in Resources */,
-				C4ED760D26EE6A0A008446C4 /* song1.mp3 in Resources */,
+				C4ED760D26EE6A0A008446C4 /* Basta.mp3 in Resources */,
 				C4ED761326EE6A19008446C4 /* song4.mp3 in Resources */,
-				C4ED760F26EE6A10008446C4 /* song2.mp3 in Resources */,
+				C459A5BE2703148B003E7B14 /* Bastard_F..c_That.mp3 in Resources */,
+				C4ED760F26EE6A10008446C4 /* Scriptonit.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

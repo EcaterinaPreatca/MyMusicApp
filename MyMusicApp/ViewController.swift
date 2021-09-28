@@ -21,33 +21,64 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func configureSongs() {
+        
+        songs.append(Song(name: "Lovefool",
+                          albumName: "album: Lovefool Collection - EP",
+                          artistName: "Twocolors",
+                          imageName: "track_Lovefool_Twocolors",
+                          trackName: "Lovefool_Twocolors"))
         songs.append(Song(name: "Фонари",
-                          albumName: "Часть 1",
+                          albumName: "альбом: Часть 1",
                           artistName: "Баста и Тати",
-                          imageName: "track1",
-                          trackName: "song1"))
+                          imageName: "track_Баста_и_Тати_-_Фонари",
+                          trackName: "Basta"))
+        songs.append(Song(name: "I got Love",
+                          albumName: "album: Hajime",
+                          artistName: "MiyaGi & Andy Panda",
+                          imageName: "track_MiyaGi_&_Andy_Panda-_I_got_love",
+                          trackName: "MiyaGi_&_Andy_Panda-_I_got_love"))
         songs.append(Song(name: "Это любовь",
-                          albumName: "Дом с нормальными явлениями",
+                          albumName: "альбом: Дом с нормальными явлениями",
                           artistName: "Скриптонит",
-                          imageName: "track2",
-                          trackName: "song2"))
+                          imageName: "track_Скриптонит_Это_любовь",
+                          trackName: "Scriptonit"))
+        songs.append(Song(name: "Astronaut In The Ocean",
+                          albumName: "album: Astronaut In The Ocean",
+                          artistName: "Masked Wolf",
+                          imageName: "track_Masked-wolf_-_astronaut-in-the-ocean",
+                          trackName: "Masked-wolf_-_astronaut-in-the-ocean"))
+        songs.append(Song(name: "F..c That",
+                          albumName: "album: F..c That",
+                          artistName: "Bastard!",
+                          imageName: "track_Bastard_F..c_That",
+                          trackName: "Bastard_F..c_That"))
         songs.append(Song(name: "Жить в кайф",
-                          albumName: "Жить в кайф",
+                          albumName: "альбом: Жить в кайф",
                           artistName: "Макс Корж",
-                          imageName: "track3",
-                          trackName: "song3"))
+                          imageName: "track_Korz",
+                          trackName: "Korz"))
+        songs.append(Song(name: "Don't Be Shy",
+                          albumName: "album: Don't Be Shy",
+                          artistName: "Tiësto & Karol G",
+                          imageName: "track10",
+                          trackName: "Tiesto_-_don-t-be-shy"))
         songs.append(Song(name: "Красиво",
-                          albumName: "Все так и было",
+                          albumName: "альбом: Океан",
                           artistName: "Валерий Меладзе",
                           imageName: "track4",
                           trackName: "song4"))
         songs.append(Song(name: "На берегу неба",
-                          albumName: "На берегу неба",
+                          albumName: "альбом: На берегу неба",
                           artistName: "Дима Билан",
                           imageName: "track5",
                           trackName: "song5"))
+        songs.append(Song(name: "Read My Lips",
+                          albumName: "album: Read My Lips",
+                          artistName: "INNA x Farina",
+                          imageName: "track9",
+                          trackName: "song9"))
         songs.append(Song(name: "Плачут небеса",
-                          albumName: "Новые люди",
+                          albumName: "альбом: Новые люди",
                           artistName: "Тимати",
                           imageName: "track6",
                           trackName: "song6"))
@@ -63,12 +94,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let song = songs[indexPath.row]
         // configure
         cell.textLabel?.text = song.name
-        cell.detailTextLabel?.text = song.albumName
+        cell.detailTextLabel?.text = song.artistName
         cell.accessoryType = .disclosureIndicator
         cell.imageView?.image = UIImage(named: song.imageName)
-        cell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 18)
-        cell.detailTextLabel?.font = UIFont(name: "Helvetica", size: 17)
-
+        cell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 20)
+        cell.detailTextLabel?.font = UIFont(name: "Helvetica", size: 18)
         return cell
     }
 

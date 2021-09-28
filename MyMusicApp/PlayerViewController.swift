@@ -23,16 +23,10 @@ class PlayerViewController: UIViewController {
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
-
-    private let songNameLabel: UILabel = {
-        let label = UILabel()
-        label.textAlignment = .center
-        label.numberOfLines = 0 // line wrap
-        return label
-    }()
-
+    
     private let artistNameLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont(name: "Helvetica-Bold", size: 25)
         label.textAlignment = .center
         label.numberOfLines = 0 // line wrap
         return label
@@ -40,6 +34,15 @@ class PlayerViewController: UIViewController {
 
     private let albumNameLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont(name: "Helvetica", size: 18)
+        label.textAlignment = .center
+        label.numberOfLines = 0 // line wrap
+        return label
+    }()
+    
+    private let songNameLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "Helvetica-Bold", size: 25)
         label.textAlignment = .center
         label.numberOfLines = 0 // line wrap
         return label
@@ -60,34 +63,29 @@ class PlayerViewController: UIViewController {
 
         func configure() {
                 // set up player
-//                guard position + 1 == songs.count else { return }
-                
-                let song = songs[position]
+        let song = songs[position]
         let urlString = Bundle.main.path(forResource: song.trackName, ofType: "mp3")
 
         do {
             try AVAudioSession.sharedInstance().setMode(.default)
             try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
-
             guard let urlString = urlString else {
                 print("urlstring is nil")
                 return
             }
-
+            
             player = try AVAudioPlayer(contentsOf: URL(string: urlString)!)
-
             guard let player = player else {
                 print("player is nil")
                 return
             }
             player.volume = 0.5
-
             player.play()
         }
         catch {
             print("error occurred")
         }
-
+            
         // set up user interface elements
         // album cover
         albumImageView.frame = CGRect(x: 10,
@@ -122,7 +120,6 @@ class PlayerViewController: UIViewController {
         // Player controls
         let nextButton = UIButton()
         let backButton = UIButton()
-
         // Frame
         let yPosition = artistNameLabel.frame.origin.y + 70 + 20
         let size: CGFloat = 60
@@ -207,8 +204,7 @@ class PlayerViewController: UIViewController {
                                                    width: self.holder.frame.size.width-60,
                                                    height: self.holder.frame.size.width-60)
             })
-        }
-        else {
+        } else {
             // play
             player?.play()
             playPauseButton.setBackgroundImage(UIImage(systemName: "pause.fill"), for: .normal)
@@ -234,5 +230,4 @@ class PlayerViewController: UIViewController {
             player.stop()
         }
     }
-
 }
